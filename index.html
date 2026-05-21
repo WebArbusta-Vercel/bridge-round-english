@@ -754,43 +754,98 @@
 
 <!-- 1. QUIÉNES SOMOS -->
 <section class="light" id="quienes">
-  <div class="fade-in">
-    <p class="section-num dark">01 — Who We Are</p>
-    <h2 class="section-title" style="color: var(--aubergine);">A company that connects<br>purpose<br>with technology.</h2>
-    <div class="divider dark"></div>
-    <p class="section-lead dark">At Arbusta we accelerate data-driven initiatives to optimize our clients' operations and generate long-term social impact. We train young people from vulnerable backgrounds and integrate them into tech teams at Latam's leading companies.</p>
+
+  <!-- Top: description left, solutions right -->
+  <div style="display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:start;" class="fade-in">
+    <div>
+      <p class="section-num dark">01 — Who We Are</p>
+      <h2 class="section-title" style="color: var(--aubergine);">A company that connects purpose with technology.</h2>
+      <div class="divider dark"></div>
+      <p class="section-lead dark" style="margin-bottom:0;">At Arbusta we accelerate data-driven initiatives to optimize our clients' operations and generate long-term social impact. We train young people from vulnerable backgrounds and integrate them into tech teams at Latam's leading companies.</p>
+    </div>
+    <div class="solutions-list" style="margin-top:0;align-self:center;">
+      <div class="solution-item">
+        <div>
+          <span class="sol-label">Solution 01</span>
+          <h4>Evals & AI Training</h4>
+          <p>We train and supervise AI agents that optimize our clients' operations.</p>
+        </div>
+      </div>
+      <div class="solution-item">
+        <div>
+          <span class="sol-label">Solution 02</span>
+          <h4>Market Intelligence</h4>
+          <p>We collect data for market analysis and catalog comparison at scale.</p>
+        </div>
+      </div>
+      <div class="solution-item">
+        <div>
+          <span class="sol-label">Solution 03</span>
+          <h4>Validation & Risk Management</h4>
+          <p>We validate and audit data and documents to prevent fraud and ensure quality.</p>
+        </div>
+      </div>
+      <div class="solution-item">
+        <div>
+          <span class="sol-label">Solution 04</span>
+          <h4>CX Support & Automation</h4>
+          <p>Hybrid (human+tech) operations for customer or internal user support.</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="solutions-list fade-in">
-    <div class="solution-item">
-      <div>
-        <span class="sol-label">Solution 01</span>
-        <h4>Evals & AI Training</h4>
-        <p>We train and supervise AI agents that optimize our clients' operations.</p>
+  <!-- Bottom: Our Impact -->
+  <div style="margin-top:80px;" class="fade-in">
+    <p class="section-num dark" style="margin-bottom:8px;">Our Impact</p>
+    <h2 style="font-family:var(--font-primary);font-weight:800;font-size:clamp(28px,3vw,48px);color:var(--aubergine);letter-spacing:-0.02em;margin-bottom:40px;">Arbusta is Changing<br>the Rules of the Game</h2>
+
+    <!-- 4 impact cards -->
+    <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:48px;">
+      <div style="background:var(--aubergine);border-radius:8px;padding:32px 24px;">
+        <p style="font-family:var(--font-primary);font-weight:800;font-size:20px;color:#f2f0f2;line-height:1.25;">First job opportunity for youth from fragile backgrounds</p>
+      </div>
+      <div style="background:var(--aubergine);border-radius:8px;padding:32px 24px;">
+        <p style="font-family:var(--font-primary);font-weight:800;font-size:20px;color:#f2f0f2;line-height:1.25;">We are 60%+ women</p>
+      </div>
+      <div style="background:var(--aubergine);border-radius:8px;padding:32px 24px;">
+        <p style="font-family:var(--font-primary);font-weight:800;font-size:20px;color:#f2f0f2;line-height:1.25;">Our approach unlocks the poverty circle.</p>
       </div>
     </div>
-    <div class="solution-item">
+
+    <!-- Insights + QR row -->
+    <div style="display:grid;grid-template-columns:1fr auto;gap:48px;align-items:start;">
+
+      <!-- 4 insight cards -->
       <div>
-        <span class="sol-label">Solution 02</span>
-        <h4>Market Intelligence</h4>
-        <p>We collect data for market analysis and catalog comparison at scale.</p>
+        <p style="font-family:var(--font-mono);font-size:10px;letter-spacing:0.15em;text-transform:uppercase;color:var(--purple);margin-bottom:20px;">Some Insights</p>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;">
+          <div style="background:#0e0619;border-top:2px solid var(--grape);padding:24px;">
+            <p style="font-family:var(--font-primary);font-weight:800;font-size:17px;color:var(--lilac);line-height:1.3;">Freedom to choose the job they prefer</p>
+          </div>
+          <div style="background:#0e0619;border-top:2px solid var(--grape);padding:24px;">
+            <p style="font-family:var(--font-primary);font-weight:800;font-size:17px;color:var(--lilac);line-height:1.3;">Radical increase in salaries and benefits</p>
+          </div>
+          <div style="background:#0e0619;border-top:2px solid var(--grape);padding:24px;">
+            <p style="font-family:var(--font-primary);font-weight:800;font-size:17px;color:var(--lilac);line-height:1.3;">Continuous professional growth</p>
+          </div>
+          <div style="background:#0e0619;border-top:2px solid var(--grape);padding:24px;">
+            <p style="font-family:var(--font-primary);font-weight:800;font-size:17px;color:var(--lilac);line-height:1.3;">Role models impact 4+ other youths in their communities.</p>
+          </div>
+        </div>
       </div>
-    </div>
-    <div class="solution-item">
-      <div>
-        <span class="sol-label">Solution 03</span>
-        <h4>Validation & Risk Management</h4>
-        <p>We validate and audit data and documents to prevent fraud and ensure quality.</p>
+
+      <!-- QR block -->
+      <div style="background:var(--aubergine);padding:32px;text-align:center;min-width:220px;border-radius:8px;">
+        <p style="font-family:var(--font-mono);font-size:9px;letter-spacing:0.12em;text-transform:uppercase;color:var(--lilac);margin-bottom:16px;">La Potencia del Talento No Mirado — Ebook</p>
+        <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1oTU8g-0FQwEs_2ruuAKJcBjD3H-wFrC3%2Fview%3Fusp%3Dsharing&color=ffffff&bgcolor=2a103e" alt="QR Code" style="width:140px;height:140px;display:block;margin:0 auto 16px;">
+        <p style="font-family:var(--font-serif);font-style:italic;font-size:13px;color:rgba(249,218,234,0.7);line-height:1.5;margin-bottom:12px;">A book about Arbusta's innovative approach to developing IT talent and breaking the poverty cycle.</p>
+        <p style="font-family:var(--font-primary);font-weight:700;font-size:13px;color:var(--lilac);">Download for free ↗</p>
       </div>
-    </div>
-    <div class="solution-item">
-      <div>
-        <span class="sol-label">Solution 04</span>
-        <h4>CX Support & Automation</h4>
-        <p>Hybrid (human+tech) operations for customer or internal user support.</p>
-      </div>
+
     </div>
   </div>
+
 </section>
 
 <!-- 2. TRACK RECORD -->
@@ -898,13 +953,13 @@
     </div>
     <div class="pillar">
       <span class="pillar-num">[ PILLAR 02 ]</span>
-      <h3>AI-Native</h3>
-      <p>Arbusta's trainees and juniors arrive at projects already proficient in tools like Claude and ChatGPT. They don't need to catch up — they start from there.</p>
+      <h3>Deep Talent Mapping</h3>
+      <p>Massive technical skills assessment through hands-on tests to detect hidden talent and IT-trained profiles within our 750+ person community.</p>
     </div>
     <div class="pillar">
       <span class="pillar-num">[ PILLAR 03 ]</span>
-      <h3>End-to-End Value</h3>
-      <p>We move from selling "effort/hours" to selling "expertise + outcomes". Technology black boxes where the client buys curated data end-to-end.</p>
+      <h3>AI-Native</h3>
+      <p>Arbusta's trainees and juniors arrive at projects already proficient in tools like Claude and ChatGPT. They don't need to catch up — they start from there.</p>
     </div>
     <div class="pillar">
       <span class="pillar-num">[ PILLAR 04 ]</span>
@@ -913,8 +968,8 @@
     </div>
     <div class="pillar">
       <span class="pillar-num">[ PILLAR 05 ]</span>
-      <h3>Deep Talent Mapping</h3>
-      <p>Massive technical skills assessment through hands-on tests to detect hidden talent and IT-trained profiles within our 750+ person community.</p>
+      <h3>End-to-End Value</h3>
+      <p>We move from selling "effort/hours" to selling "expertise + outcomes". Technology black boxes where the client buys curated data end-to-end.</p>
     </div>
     <div class="pillar">
       <span class="pillar-num">[ PILLAR 06 ]</span>
@@ -949,20 +1004,20 @@
 
     <div class="ask-uses">
       <div class="ask-use">
-        <h4>01 — Operational Resilience</h4>
-        <p>Strengthen results, cash flow and operational efficiency to sustain the transition toward a more scalable, resilient, AI-aligned revenue model.</p>
+        <h4>01 — AI-Ready Talent</h4>
+        <p>Technical path in Campus and Onboarding, profile validation by real skills and a structured learning journey so each analyst advances toward higher-complexity technical roles.</p>
       </div>
       <div class="ask-use">
-        <h4>02 — AI-Enabled Growth</h4>
-        <p>Expand our value proposition toward AI-enabled services, developing new commercial capabilities and exploring verticals with greater growth and differentiation potential.</p>
-      </div>
-      <div class="ask-use">
-        <h4>03 — Intelligent Operations</h4>
+        <h4>02 — Intelligent Operations</h4>
         <p>Integrate AI and automation into our operational flows to increase productivity, reduce structural costs and build more sustainable, scalable margins.</p>
       </div>
       <div class="ask-use">
-        <h4>04 — AI-Ready Talent</h4>
-        <p>Technical path in Campus and Onboarding, profile validation by real skills and a structured learning journey so each analyst advances toward higher-complexity technical roles.</p>
+        <h4>03 — AI-Enabled Growth</h4>
+        <p>Expand our value proposition toward AI-enabled services, developing new commercial capabilities and exploring verticals with greater growth and differentiation potential.</p>
+      </div>
+      <div class="ask-use">
+        <h4>04 — Operational Resilience</h4>
+        <p>Strengthen results, cash flow and operational efficiency to sustain the transition toward a more scalable, resilient, AI-aligned revenue model.</p>
       </div>
     </div>
 
